@@ -112,7 +112,7 @@ func printUsage(writer io.Writer) {
 	fmt.Fprintln(writer, "Notes:")
 	fmt.Fprintln(writer, "  - Encoder streams raw RGBA frames directly into ffmpeg.")
 	fmt.Fprintln(writer, "  - Decoder reads raw RGBA frames back from ffmpeg stdout.")
-	fmt.Fprintln(writer, "  - .mkv is recommended for the fastest lossless workflow; .mp4 uses lossless H.264 RGB.")
+	fmt.Fprintln(writer, "  - .mkv is the strict lossless path; .mp4 uses player-compatible H.264 yuv420p.")
 }
 
 func printEncodeUsage(writer io.Writer) {

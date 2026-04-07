@@ -58,8 +58,8 @@ Decode:
 
 Notes:
 
-- `.mkv` is the recommended output container for the default `FFV1` lossless codec.
-- `.mp4` and `.mov` are also supported and use lossless `libx264rgb`.
+- `.mkv` is the recommended output container for the strict lossless `FFV1` workflow.
+- `.mp4` and `.mov` use standard `H.264 yuv420p` for maximum player compatibility.
 
 ## Docker
 
