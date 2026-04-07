@@ -1,0 +1,11 @@
+services:
+  yt-encoder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: yt-encoder
+    working_dir: /data
+    volumes:
+      - ./data:/data
+    stdin_open: true
+    tty: true

@@ -1,0 +1,12 @@
+.git
+.gitignore
+.cursor
+data
+dist
+bin
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.bin
+*.tmp
