@@ -87,3 +87,16 @@ Using Docker Compose:
 docker compose run --rm yt-encoder encode /data/input.bin /data/output.mkv
 docker compose run --rm yt-encoder decode /data/output.mkv /data/restored.bin
 ```
+
+
+
+
+
+example 
+
+```bash
+docker build -t yt-encoder .          
+docker run --rm -v "$(pwd)/data:/data" yt-encoder encode  /data/restored2.zip  /data/restored2.mp4
+docker run --rm -v "$(pwd)/data:/data" yt-encoder decode /data/restored2.mp4 /data/restored2.zip
+```
+
