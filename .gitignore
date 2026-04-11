@@ -7,3 +7,5 @@
 # Ignore OS files
 .DS_Store
 Thumbs.db
+data/.ash_history
+doc/
