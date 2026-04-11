@@ -57,8 +57,8 @@ func DefaultConfig() VideoConfig {
 	return VideoConfig{
 		Width:    1920,
 		Height:   1080,
-		CellSize: 8,
-		FPS:      24,
+		CellSize: 40, //8,
+		FPS:      10, //24,
 	}
 }
 
